@@ -1,0 +1,12 @@
+
+a{
+  text-decoration: none;
+  color: inherit;
+  margin: 0.5rem;
+  width: 100%;
+  display: block;
+}
+
+button {
+  border: none;
+}

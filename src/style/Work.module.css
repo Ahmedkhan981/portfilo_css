@@ -1,0 +1,71 @@
+/* Work.module.css */
+.container {
+  padding-top: 5rem; /* pt-20 */
+  padding-bottom: 2rem; /* py-8 */
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-bottom: 4rem; /* py-16 */
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-top: 8rem; /* pt-32 */
+  }
+}
+
+/* Wrapper */
+.wrapper {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    padding-left: 2rem; /* lg:px-8 */
+    padding-right: 2rem; /* lg:px-8 */
+    max-width: 72rem; /* xl:max-w-6xl */
+  }
+}
+
+/* Heading */
+.heading {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+  margin-bottom: 2rem; /* mb-8 */
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .heading {
+    font-size: 2.25rem; /* text-4xl */
+    text-align: left;
+  }
+}
+
+/* Grid container */
+.gridContainer {
+  display: grid;
+  gap: 1.25rem; /* gap-5 */
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 640px) {
+  .gridContainer {
+    gap: 2rem; /* sm:gap-8 */
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .gridContainer {
+    grid-template-columns: repeat(3, 1fr); /* lg:grid-cols-3 */
+  }
+}

@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  padding: 1rem;
+  background-color: #1f2937;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+ul{
+  padding: 10px;
+}
+.contactHeading {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.contactLink {
+  text-decoration: none;
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+}

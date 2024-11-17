@@ -1,0 +1,96 @@
+.section {
+  padding-top: 5rem;
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding-top: 8rem;
+  }
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 72rem;
+  }
+}
+
+.heading2 {
+  font-size: 1.875rem; 
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .heading2 {
+    font-size: 2.25rem; 
+    line-height: 1.25;
+  }
+}
+
+
+.description {
+  color: #d1d5db; 
+  font-size: 1rem; 
+  margin-bottom: 2rem;
+}
+
+
+.hovereffect {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .hovereffect {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.reviewCard {
+  border: 1px solid #ddd;
+  border-radius: 0.625rem; 
+  background-color: #18181b; 
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reviewCardhover:hover {
+  background-color: #111827; 
+}
+
+.reviewImg {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 3rem; 
+  height: 3rem; 
+}
+
+.reviewName {
+  font-size: 1.125rem; 
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+.reviewRating {
+  color: #fbbf24; 
+  margin-top: 0.25rem;
+}
+
+
+.reviewContent {
+  color: #9ca3af; 
+  font-size: 0.875rem; 
+  margin-top: 0.5rem;
+}

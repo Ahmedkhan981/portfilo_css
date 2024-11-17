@@ -1,0 +1,92 @@
+.navbar {
+  position: absolute;
+  top: -85%;
+  right: -100%;
+  min-width: 16rem;
+  padding: 0.5rem;
+  background-color: #9ca3af;
+border-radius: 1rem;
+  border: 1px inset #f9fafb; 
+  isolation: isolate;
+  filter: blur(8px);
+  opacity: 0;
+  visibility: hidden;
+  height: 100%;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    position: static;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    opacity: 1;
+    filter: blur(0);
+    visibility: visible;
+    transform: scale(1);
+    backdrop-filter: blur(40px);
+  }
+
+}
+
+.navbar.active {
+  opacity: 1;
+  transform: scale(1);
+  filter: blur(0);
+  visibility: visible;
+
+}
+@media (max-width: 768px) {
+.navbar.active{
+  height: 100vh;
+}
+.navbar{
+  border-top-left-radius: 1rem;
+border-bottom-left-radius: 1rem;
+}
+}
+@media (max-width: 768px) {
+  .anchor{
+    margin: 40px 10px;
+  }
+  
+}
+.nav-link {
+  display: grid;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: color 300ms;
+  letter-spacing: 0.05em;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.nav-link.active {
+  color: #27272a; /* text-zinc-900 */
+  transition-duration: 500ms;
+}
+
+.active-box {
+  position: absolute;
+  height: 2.25rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  transition: all 200ms;
+  z-index: 10;
+}
+
+.mdHidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mdHidden {
+    display: block;
+  }
+}

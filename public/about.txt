@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Noto Sans Inscriptional Parthian
+- Font Author: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/inscriptional-parthian)
+- Font Source: https://fonts.gstatic.com/s/notosansinscriptionalparthian/v17/k3k7o-IMPvpLmixcA63oYi-yStDkgXuXncL7dzfW3P4TAJ2yklBJ2jNkLlLr.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
